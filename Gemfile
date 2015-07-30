@@ -44,4 +44,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'minitest-rails', group: :test
+group :test do
+  gem 'minitest'
+  gem 'minitest-rails'
+end
