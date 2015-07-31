@@ -45,6 +45,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 group :test, :development do
+  gem 'test-unit'
   gem 'minitest'
   gem 'minitest-rails'
 end
